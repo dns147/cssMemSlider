@@ -2,10 +2,24 @@
     --img: url("galery/1.gif");
 }
 
+html {
+    background-color: #1e1919;
+}
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+header {
+    color: #7409ee;
+}
+
+footer {
+    display: flex;
+    width: 1024px;
+    justify-content: space-between;
 }
 
 .picture {
@@ -15,4 +29,35 @@ body {
     width: 1024px;
     height: 600px;
     border-radius: 15px;
+}
+
+.sub {
+    color: #7409ee;
+}
+
+.slider__pag {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}
+
+.slider__pag__li {
+    width: 16px;
+    height: 16px;
+    background-color: #7409ee;
+    border-radius: 10px;
+}
+
+.slider__pag__li:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.slider__pag__li:active {
+    border: solid #7409ee 2px;
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
 }
