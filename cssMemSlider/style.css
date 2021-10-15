@@ -54,10 +54,18 @@ footer {
 
 .slider__pag__li:hover {
     cursor: pointer;
+    /* background-color: #ffffff; */
+}
+
+.slider__pags__hover {
     background-color: #ffffff;
 }
 
-.slider__pag__li:active {
-    background-color: #ffffff;
+.slider__pags__active {
+    background-color: #1e1919;
     box-shadow: inset 0px 0px 0px 2px #009688;
+}
+
+.slider__pags__active__hover {
+    box-shadow: inset 0px 0px 0px 2px #ffffff;
 }
