@@ -55,5 +55,13 @@ sliderPags.forEach((v, i) => {
             easing: 'ease-out',
             }
         );
+
+        sub.animate(
+            [{left: '30%'}, {left: '0'}],  
+            {
+            duration: 400,
+            easing: 'ease-out',
+            }
+        );
     });
 });

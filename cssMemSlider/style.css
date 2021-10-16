@@ -50,6 +50,7 @@ footer {
 .sub {
     color: #009688;
     font-size: 24px;
+    position: relative;
 }
 
 .slider__pag {
