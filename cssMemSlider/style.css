@@ -16,6 +16,10 @@ header {
     color: #009688;
 }
 
+main {
+    position: relative;
+}
+
 footer {
     display: flex;
     width: 1024px;
@@ -29,6 +33,18 @@ footer {
     width: 1024px;
     height: 600px;
     border-radius: 15px;
+    position: relative;
+}
+
+.picture__up {
+    background-image: var(--img);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1024px;
+    height: 600px;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
 }
 
 .sub {
@@ -54,7 +70,6 @@ footer {
 
 .slider__pag__li:hover {
     cursor: pointer;
-    /* background-color: #ffffff; */
 }
 
 .slider__pags__hover {
