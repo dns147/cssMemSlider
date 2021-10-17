@@ -152,7 +152,7 @@ label:hover {
 #slide4:checked ~ .slider > .slide4,
 #slide5:checked ~ .slider > .slide5 {
     width: 100%;
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 #slide1:checked ~ .slider > .slide5__before,
@@ -161,7 +161,7 @@ label:hover {
 #slide4:checked ~ .slider > .slide3__before,
 #slide5:checked ~ .slider > .slide4__before {
     display: block;
-    animation: move 0.2s forwards;
+    animation: move 0.3s forwards;
 }
 
 .footer {
@@ -173,7 +173,7 @@ label:hover {
 
 .sub {
     color: #cacfcf;
-    font-size: 24px;
+    font-size: 1.4rem;
     display: none;
 }
 
@@ -209,7 +209,7 @@ label:hover {
     }
 
     .sub {
-        font-size: 20px;
+        font-size: 1.3rem;
         transition: all 0.3s;
     }
 }
@@ -221,7 +221,7 @@ label:hover {
     }
 
     .sub {
-        font-size: 18px;
+        font-size: 1.2rem;
         transition: all 0.3s;
     }
 }
@@ -240,7 +240,7 @@ label:hover {
     }
 
     .sub {
-        font-size: 16px;
+        font-size: 1rem;
         transition: all 0.3s;
     }
 }
@@ -259,7 +259,7 @@ label:hover {
     }
 
     .sub {
-        font-size: 14px;
+        font-size: 0.8rem;
         transition: all 0.3s;
     }
 }
